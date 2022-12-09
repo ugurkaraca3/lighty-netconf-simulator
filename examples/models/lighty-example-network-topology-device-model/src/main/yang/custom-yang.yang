@@ -1,0 +1,31 @@
+module custom-yang {
+
+  yang-version 1.1;
+
+  namespace "urn:custom.yang";
+  prefix "cst";
+
+
+  description
+    "This module is custom yang";
+
+  revision "2018-03-20" {
+    description
+      "Initial revision";
+  }
+
+  container custom-yang-cont {
+    list custom-yang-list {
+      key uuid;
+      leaf uuid {
+        type string;
+      }
+      leaf name {
+        type string;
+      }
+    }
+
+  }
+
+
+}

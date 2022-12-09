@@ -11,13 +11,13 @@ you can create your own device. This device can be built with the use of builder
 adding custom YANG models, custom request processors & more.
 
 ## Build & Run
-* Build the project with Java 17:
+* Build the project with Java 11:
 ```
 mvn clean install
 ```
 * The NETCONF Device Library build is located at:
 
-`lighty-netconf-device\target\lighty-netconf-device-18.0.0-SNAPSHOT.jar`
+`lighty-netconf-device\target\lighty-netconf-device-16.2.0.jar`
 
 * The build & run procedures for the example devices are described in each device's README.
 

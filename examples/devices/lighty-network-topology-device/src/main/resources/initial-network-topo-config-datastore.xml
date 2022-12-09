@@ -5,4 +5,10 @@
             <topology-id>default-topology</topology-id>
         </topology>
     </network-topology>
+    <custom-yang-cont xmlns="urn:custom.yang">
+        <custom-yang-list>
+            <uuid>0</uuid>
+            <name>customx</name>
+        </custom-yang-list>
+    </custom-yang-cont>
 </data>

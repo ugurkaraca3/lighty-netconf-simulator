@@ -60,9 +60,12 @@ public final class Main {
 
         //1. Load models from classpath
         Set<YangModuleInfo> modules = ModelUtils.getModelsFromClasspath(
-                ModuleId.from("urn:tech.pantheon.netconfdevice.network.topology.rpcs",
-                    "network-topology-rpcs",
+                ModuleId.from("urn:custom.yang",
+                    "custom-yang",
                     "2018-03-20"),
+                ModuleId.from("urn:tech.pantheon.netconfdevice.network.topology.rpcs",
+                        "network-topology-rpcs",
+                        "2018-03-20"),
                 ModuleId.from("urn:opendaylight:netconf-node-topology",
                     "netconf-node-topology",
                     "2015-01-14"));
